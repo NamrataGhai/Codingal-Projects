@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Donation Form </title>
+</head>
+<body>
+    <form>
+        <h1>BOOK DONATION FORM</h1>
+
+        <p>Fill in the details below to donate a book!</p>
+    <fieldset>
+        <legend>Donar Details</legend> <Br>
+       <label> Your Name</label> <br> 
+       <input type="text" name="name" placeholder="Enter your name"><br><br>
+        <label> Donor ID</label><br>
+         <input type="text" name="PatientID" placeholder="Enter your ID"><br><br>
+       <label> Donation Date </label> <br> <input type="date"><br>
+    </fieldset> <br>
+ 
+    <fieldset>
+        <legend>Book Details</legend> <br>
+       <label>Book Category</label> <br><select name="doctor">
+            <option value="">Select Your Book Category </option>
+            <option value="Science">Science</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Educational">Educational</option>
+            <option value="OOthers">Others</option>
+        </select><br><br>
+        <legend>Book Category if Others</legend>
+        <textarea name="notes" rows="1" cols="10"
+         placeholder="Enter the book category if others"></textarea> <br><br>
+
+        <legend> Book Condition </legend>
+        <input type="radio" id="reason1" Value="New" name="reason">
+        <label for="reason1">New</label><br>
+        <input type="radio" id="reason1" Value="Good" name="reason">
+        <label for="reason1">Good</label><br>
+        <input type="radio" id="reason1" Value="Fair" name="reason">
+        <label for="reason1">Fair</label><br>
+        <input type="radio" id="reason1" Value="Poor" name="reason">
+        <label for="reason1">Poor</label><br><br>
+
+        <legend> Book Title </legend>
+        <input type="text" name="BookTitle" placeholder="Enter the book title"> <br><br>
+
+        <legend>Book Description</legend>
+        <textarea name="BookDescription" rows="3" cols="50" placeholder="Enter the book description">
+        </textarea>
+
+
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Drop Off Day </legend>
+        <label for="DropOffDay">Select Day:</label>
+        <input type="checkbox" id="DropOffDay" name="DropOffDay">
+        <label for="Drop off day "> Monday </label>
+        <input type="checkbox" id="DropOffDay" name="DropOffDay">
+        <label for="Drop off day "> Wednesday </label>
+    <input type="checkbox" id="DropOffDay" name="DropOffDay">
+        <label for="Drop off day "> Friday </label>
+
+    </fieldset> <br><br>
+
+        <input type="submit" value="Donate My Book">
+
+
+    </form>
+
+
+</body>
+</html>
